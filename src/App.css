@@ -1,10 +1,43 @@
-
+#Main{
+  font-family: 'Montserrat', serif;
+  font-weight: normal;
+}
+#account {
+  padding-top: 5%;
+  padding-right: 2%;
+}
+#account {
+  transform-style: preserve-3d;
+  transform-origin: center;
+  transition: transform ease 0.6s;
+}
+#account:hover{
+  transform: rotate(1turn);
+  transform-style: preserve-3d;
+  transform-origin: center;
+  transition: transform ease 0.6s;
+}
 .header-logo{
   margin: 0px 0px;
+}
+.App-logo{
+  padding-inline: 5%;
+}
+.App-logo{
+  transition: transform ease 0.6s;
+  transform-style: preserve-3d;
+  transform-origin: center;
+}
+.App-logo:hover{
+  transform: scale(1.5, 1.5);
+  transform-style: preserve-3d;
+  transform-origin: center;
+  transition: transform ease 0.6s;
 
 }
 .header{
-  background-image: url(фон.png);
+  /*background-image: url(фон.png);*/
+  margin: 5% 20%;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,28 +49,27 @@
 .kat{
   color:black;
   text-decoration: none;
-  font-weight:700;
-  font-size:20px;
-  margin-right: 25px;
-  margin-left:25px;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 .kat:hover{
-  color:orangered;
+  color: #ff7700;
+  transition: color 1s inherit;
+}
+.lkarea:hover{
+  color: #ff7700;
   transition: color 0.15s linear;
 }
-.button:hover{
-  color:white;
-  transition: color 0.15s linear;
-}
-.button{
+.lkarea{
+  display: inline-flex;
   color:black;
+  font-weight: bolder;
   text-decoration: none;
-  font-weight:700;
-  font-size:20px;
-  margin-right: 20px;
-  margin-left: 200px;
-  background-color:orangered ;
-  padding: 10px 15px;
+  font-size: 15px;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 .App{
   text-align: center;

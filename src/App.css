@@ -5,14 +5,6 @@
 #account {
   padding-top: 5%;
   padding-right: 2%;
-}
-#account {
-  transform-style: preserve-3d;
-  transform-origin: center;
-  transition: transform ease 0.6s;
-}
-#account:hover{
-  transform: rotate(1turn);
   transform-style: preserve-3d;
   transform-origin: center;
   transition: transform ease 0.6s;
@@ -45,6 +37,7 @@
 .header-kat{
   display: flex;
   align-items: center;
+
 }
 .kat{
   color:black;
@@ -59,18 +52,80 @@
   transition: color 1s inherit;
 }
 .lkarea:hover{
-  color: #ff7700;
+  color: white;
   transition: color 0.15s linear;
+
 }
 .lkarea{
   display: inline-flex;
-  color:black;
   font-weight: bolder;
   text-decoration: none;
   font-size: 15px;
   margin-right: 2%;
   margin-left: 2%;
+  color: black;
 }
 .App{
   text-align: center;
 }
+
+.lkramka {
+  margin-left: 2%;
+  border-radius:25px;
+  width: 23%;
+  border: 2px solid #ff7700;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.lkramka img {
+  object-position: 5px;
+  margin-right: 4%;
+  margin-left: 3%;
+  float: left;
+  margin-top:1%;
+}
+.lkramka p{
+  overflow-wrap: normal;
+  padding: 4px;
+  display: block;
+  font-weight:bold;
+  font-size:15px;
+  margin-left:10%;
+}
+.lkramka:hover{
+  background-color: #ff7700;
+}
+.lkramka:hover img{
+  transform: rotate(1turn);
+  transform-style: preserve-3d;
+  transform-origin: center;
+  transition: transform ease 0.6s;
+}
+.lkramka:hover .lkarea{
+  color:white;
+}
+
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px darkgrey;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10% 10%;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color: #ff7700;}
+.dropdown:hover .dropdown-content {display: block;}

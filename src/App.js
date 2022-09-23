@@ -1,6 +1,7 @@
 import logo from './lookind.png';
 import person from './person.png';
 import './App.css';
+import front from './photo.png';
 
 function App() {
     return (
@@ -23,6 +24,20 @@ function App() {
                             </div>
                         </a>
                 </div>
+            <div className="container">
+                <div className="header_row">
+                    <div className="header_content">
+                        <h1 className="header_title">Create a great first impression</h1>
+                        <div className="header_text">Make outfits for every day and pick up a stylish wardrobe.</div>
+                        <div className="header_btn">
+                            <a href="src/App" className="button">Shop now</a>
+                        </div>
+                    </div>
+                    <div className="header_photo">
+                        <img src={front} height="80%" alt="front"/>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

@@ -34,7 +34,7 @@ function App() {
                         </div>
                     </div>
                     <div className="header_photo">
-                        <img src={front} height="80%" alt="front"/>
+                        <img src={front} height="90%" alt="front"/>
                     </div>
                 </div>
             </div>

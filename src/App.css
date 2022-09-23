@@ -3,49 +3,38 @@
   font-weight: normal;
 }
 #account {
-  padding-top: 5%;
-  padding-right: 2%;
   transform-style: preserve-3d;
   transform-origin: center;
   transition: transform ease 0.6s;
-}
-.header-logo{
-  margin: 0px 0px;
-}
-.App-logo{
-  padding-inline: 5%;
+  width: auto;
 }
 .App-logo{
   transition: transform ease 0.6s;
   transform-style: preserve-3d;
   transform-origin: center;
+  font-family: 'Nabla',serif;
+  text-decoration: none;
+  font-size: xx-large;
 }
 .App-logo:hover{
   transform: scale(1.5, 1.5);
   transform-style: preserve-3d;
   transform-origin: center;
   transition: transform ease 0.6s;
-
 }
 .header{
-  /*background-image: url(фон.png);*/
-  margin: 5% 20%;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.header-kat{
   display: flex;
   align-items: center;
-
+  margin:3% 15%;
+  justify-content:space-around;
 }
+
 .kat{
   color:black;
   text-decoration: none;
   font-weight: bolder;
   font-size: 15px;
-  margin-right: 2%;
-  margin-left: 2%;
+  justify-content: space-evenly;
 }
 .kat:hover{
   color: #ff7700;
@@ -57,12 +46,11 @@
 
 }
 .lkarea{
-  display: inline-flex;
+  display:inline-flex;
   font-weight: bolder;
   text-decoration: none;
   font-size: 15px;
-  margin-right: 2%;
-  margin-left: 2%;
+
   color: black;
 }
 .App{
@@ -70,27 +58,21 @@
 }
 
 .lkramka {
-  margin-left: 2%;
   border-radius:25px;
-  width: 23%;
   border: 2px solid #ff7700;
   overflow: hidden;
+  justify-content:space-around;
   text-decoration: none;
 }
-
 .lkramka img {
-  object-position: 5px;
-  margin-right: 4%;
-  margin-left: 3%;
   float: left;
-  margin-top:1%;
 }
 .lkramka p{
   overflow-wrap: normal;
   padding: 4px;
   display: block;
   font-weight:bold;
-  font-size:15px;
+  font-size: xxx-small;
   margin-left:10%;
 }
 .lkramka:hover{
@@ -108,8 +90,6 @@
 
 .dropdown {
 
-  position: relative;
-  display: inline-block;
 }
 
 .dropdown-content {
@@ -128,4 +108,7 @@
 }
 
 .dropdown-content a:hover {color: #ff7700;}
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}

@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
 import person from "./person.png";
-
 class Header extends Component {
     render() {
         return (
            <div>
                <div className="header">
                    <a className="App-logo" href="@">Lookind</a>
-                   <div>
+                   <div className="dropdown">
                        <a className="kat">Каталог</a>
                        <div className="dropdown-content">
                            <a href="#">Для него</a>

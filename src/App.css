@@ -87,6 +87,9 @@
 .lkramka:hover .lkarea{
   color:white;
 }
+.dropdown {
+
+}
 
 .dropdown-content {
   display: none;
@@ -131,7 +134,7 @@
 }
 
 .header_title{
-  margin:0;
+  margin: 0;
   margin-bottom: 20px;
   font-style: normal;
   font-weight: normal;

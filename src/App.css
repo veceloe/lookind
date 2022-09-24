@@ -87,6 +87,7 @@
 .lkramka:hover .lkarea{
   color:white;
 }
+
 .dropdown {
 
 }
@@ -134,7 +135,7 @@
 }
 
 .header_title{
-  margin: 0;
+  margin:0;
   margin-bottom: 20px;
   font-style: normal;
   font-weight: normal;
@@ -155,7 +156,7 @@
   display: inline-block;
   position: absolute;
   background: #ffdead;
-  border-radius: 4px;
+  border-radius: 7px;
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
@@ -171,24 +172,37 @@
   text-align: center;
 }
 
-.section-header_title{
-  margin:0;
-  margin-bottom: 10px;
+.section-header{
+  padding-bottom: 15px;
+  padding-top: 20px;
+  background-color: #add8e6;
+  border-radius: 7px;
 }
 
 .post{
   margin-top: 30px;
-  max-width: 570px;
+  max-width: 520px;
   display: flex;
   justify-content: space-between;
 }
 
-.post_img{
+.posts-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.post_img{
+  border-radius: 7px;
 }
 
 .post_content{
-  max-width: 370px;
+  max-width: 300px;
+  text-align: left;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .post_title{
@@ -200,7 +214,8 @@
 }
 
 .post_text{
-  text-align: center;
+  margin: 0 0 10px;
+  text-align: left;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -209,6 +224,7 @@
 }
 
 .post_read-more{
+  text-align: left;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

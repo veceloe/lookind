@@ -88,10 +88,6 @@
   color:white;
 }
 
-.dropdown {
-
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -173,7 +169,7 @@
 }
 
 .section-header_title{
-  margin 0;
+  margin:0;
   margin-bottom: 10px;
 }
 

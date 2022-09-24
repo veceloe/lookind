@@ -2,6 +2,8 @@ import logo from './lookind.png';
 import person from './person.png';
 import './App.css';
 import front from './photo.png';
+import post1 from './1.jpg'
+import post2 from './2.png'
 
 function App() {
     return (
@@ -34,7 +36,27 @@ function App() {
                         </div>
                     </div>
                     <div className="header_photo">
-                        <img src={front} height="90%" alt="front"/>
+                        <img src={front} height="95%" alt="front"/>
+                    </div>
+                </div>
+            </div>
+            <div className="section-blog">
+                <div className="container">
+                    <div className="section-header">
+                        <h2 className="section-header_title">Blog Posts</h2>
+                        <div className="section-header_description">
+                            <p>Editor's picks</p>
+                        </div>
+                    </div>
+                    <div className="posts-wrappers">
+                        <div className="post">
+                            <img src={post1} height="170px" alt="post1" className="post_img"/>
+                            <div className="post_content">
+                                <h4 className="post_title">Повседневный деловой стиль</h4>
+                                <p className="post_text">Стиль очень похож на smart casual, но правила сочетанияразных видов одежды намного строже...</p>
+                                <a href="#" className="post_read-more">Read more</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

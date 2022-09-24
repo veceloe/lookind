@@ -5,20 +5,19 @@ class Header extends Component {
         return (
            <div>
                <div className="header">
-                   <a className="App-logo" href="@">Lookind</a>
+                   <a className="App-logo" href="@">lookind</a>
                    <div className="dropdown">
-                       <a className="kat">Каталог</a>
+                       <a className="HeaderEl">Каталог</a>
                        <div className="dropdown-content">
                            <a href="#">Для него</a>
                            <a href="#">Для неё</a>
                        </div>
                    </div>
-                   <a className="kat" href="@">Lookind.AI</a>
-                   <a className="kat" href="@">О нас</a>
-                   <a className='lkramka' href="@" >
+                   <a className="HeaderEl" href="@">Lookind.AI</a>
+                   <a className="HeaderEl" href="@">О нас</a>
+                   <a className='AccountBorder' href="@" >
                        <div>
                            <img id="account" src={person}  alt="person"/>
-                           <p className="lkarea">Личный кабинет</p>
                        </div>
                    </a>
                </div>

@@ -29,23 +29,23 @@
   justify-content:space-around;
 }
 
-.kat{
+.HeaderEl{
   color:black;
   text-decoration: none;
   font-weight: bolder;
   font-size: large;
   justify-content: space-evenly;
 }
-.kat:hover{
+.HeaderEl:hover{
   color: #ffdead;
   transition: color 1s inherit;
 }
-.lkarea:hover{
+.AccountButton:hover{
   color: white;
   transition: color 0.15s linear;
 
 }
-.lkarea{
+.AccountButton{
   display:inline-flex;
   font-weight: bolder;
   text-decoration: none;
@@ -57,34 +57,26 @@
   text-align: center;
 }
 
-.lkramka {
-  border-radius:25px;
-  border: 2px solid #ffdead;
+.AccountBorder {
+  border-radius: 100%;
+  border: 3px solid #ffdead;
   overflow: hidden;
   justify-content:space-around;
   text-decoration: none;
 }
-.lkramka img {
+.AccountBorder img {
   float: left;
 }
-.lkramka p{
-  overflow-wrap: normal;
-  padding: 4px;
-  display: block;
-  font-weight:bold;
-  font-size: xxx-small;
-  margin-left:10%;
-}
-.lkramka:hover{
+.AccountBorder:hover{
   background-color: #ffdead;
 }
-.lkramka:hover img{
+.AccountBorder:hover img{
   transform: rotate(1turn);
   transform-style: preserve-3d;
   transform-origin: center;
   transition: transform ease 0.6s;
 }
-.lkramka:hover .lkarea{
+.AccountBorder:hover .AccountButton{
   color:white;
 }
 
@@ -114,8 +106,7 @@
 
 .container{
   width: 1000px;
-  margin: 0 auto;
-  margin-top: 30px;
+  margin: 30px auto 0;
 }
 
 .header_row{
@@ -135,8 +126,7 @@
 }
 
 .header_title{
-  margin:0;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-style: normal;
   font-weight: normal;
   font-size: 52px;

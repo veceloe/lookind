@@ -1,23 +1,31 @@
 import React, {Component} from 'react';
-import person from "./person.png";
+import person from "./account.svg";
 class Header extends Component {
     render() {
         return (
            <div>
-               <div className="header">
-                   <a className="App-logo" href="@">lookind</a>
-                   <div className="dropdown">
+               <div className="Header">
+                   <a className="App-logo" href="@">
+                       <p>l</p>
+                       <p>o</p>
+                       <p>o</p>
+                       <p>k</p>
+                       <p>i</p>
+                       <p>n</p>
+                       <p>d</p>
+                   </a>
+                   <div className="Dropdown">
                        <a className="HeaderEl">Каталог</a>
-                       <div className="dropdown-content">
+                       <div className="DropdownContent">
                            <a href="#">Для него</a>
                            <a href="#">Для неё</a>
                        </div>
                    </div>
-                   <a className="HeaderEl" href="@">Lookind.AI</a>
+                   <a className="HeaderEl" href="@">Стилист</a>
                    <a className="HeaderEl" href="@">О нас</a>
-                   <a className='AccountBorder' href="@" >
+                   <a className='AccountLink' href="@" >
                        <div>
-                           <img id="account" src={person}  alt="person"/>
+                           <img className="Account" src={person}  alt="Личный кабинет"/>
                        </div>
                    </a>
                </div>

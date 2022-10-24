@@ -15,7 +15,7 @@
     <description>lookind</description>
     <properties>
         <java.version>17</java.version>
-        <frontend-src-dir>${project.basedir}/src/main/frontend</frontend-src-dir>
+        <frontend-src-dir>${project.basedir}/src/frontend</frontend-src-dir>
         <frontend-maven-plugin.version>1.12.1</frontend-maven-plugin.version>
     </properties>
     <dependencies>

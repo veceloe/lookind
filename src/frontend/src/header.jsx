@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import person from "./account.svg";
 import {Routes, Route, Link} from "react-router-dom";
 import {Home} from "./Home";
-import {Home2} from "./Home2";
+import {Man} from "./Man";
+import {Woman} from "./Woman";
 function Header(){
         return (
             <>
@@ -20,8 +21,8 @@ function Header(){
                         <div className="Dropdown">
                             <a className="HeaderEl">Каталог</a>
                             <div className="DropdownContent">
-                                <a href="#">Для него</a>
-                                <a href="#">Для неё</a>
+                                <Link to="/men">Для него</Link>
+                                <Link to="/women">Для неё</Link>
                             </div>
                         </div>
                         <a className="HeaderEl" href="/">Стилист</a>
@@ -35,6 +36,8 @@ function Header(){
                 </div>
                 <Routes>
                     <Route path="/" element={<Home />}/>
+                    <Route path="/men" element={<Man />}/>
+                    <Route path="/women" element={<Woman />}/>
                 </Routes>
             </>
         );

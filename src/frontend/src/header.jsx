@@ -4,6 +4,8 @@ import {Routes, Route, Link} from "react-router-dom";
 import {Home} from "./Home";
 import {Man} from "./Man";
 import {Woman} from "./Woman";
+import Stylist from "./Stylist";
+
 function Header(){
         return (
             <>
@@ -25,7 +27,7 @@ function Header(){
                                 <Link to="/women">Для неё</Link>
                             </div>
                         </div>
-                        <a className="HeaderEl" href="/">Стилист</a>
+                        <Link className="HeaderEl" to="/stylist">Стилист</Link>
                         <a className="HeaderEl" href="/about">О нас</a>
                         <a className='AccountLink' href="@" >
                             <div>
@@ -38,6 +40,7 @@ function Header(){
                     <Route path="/" element={<Home />}/>
                     <Route path="/men" element={<Man />}/>
                     <Route path="/women" element={<Woman />}/>
+                    <Route path="/stylist" element={<Stylist />}/>
                 </Routes>
             </>
         );

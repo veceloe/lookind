@@ -87,6 +87,7 @@
   box-shadow: 0px 4px 16px 0px #e8e8e8;
 }
 
+
 .DropdownContent a {
   color: black;
   padding: 10% 10%;
@@ -248,3 +249,24 @@
 .foot h4{
   text-decoration: underline;
 }
+
+.header-st{
+  text-align: center;
+  font-size: large;
+  color: black;
+  text-decoration: none ;
+  font-weight: bolder;
+  justify-content: space-evenly;
+}
+.points{
+  display:flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  margin:3% 15%;
+  justify-content:space-around;
+}
+.points-top{
+
+}
+

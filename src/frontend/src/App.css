@@ -15,7 +15,6 @@
   transform-origin: center;
   display: inline-flex;
 }
-
 .App-logo p:hover{
   transform: scale(1.75, 1.75);
   transform-style: preserve-3d;
@@ -25,7 +24,7 @@
 .Header{
   display: flex;
   align-items: center;
-  margin:3% 15%;
+  margin:2rem 4rem 1rem 4rem;
   justify-content:space-around;
 }
 
@@ -101,8 +100,7 @@
 }
 
 .container{
-  width: 1000px;
-  margin: 30px auto 0;
+  margin: 50px 8rem 20px 10rem;
 }
 
 .header_row{
@@ -273,16 +271,33 @@
   border: 1px solid #f1f1f1;
   padding: 20px;
   width: 210px;
+  margin-bottom: 10px;
+}
+.name_category{
+  font-family: sans-serif;
+  margin-left: 10rem;
 }
 .wrapper{
-  padding-bottom: 30px;
-  padding-top: 20px;
-  background-color: #add8e6;
+  display: flex;
+  flex-direction: row;
+}
+.headerInfo a{
+  display: inline-block;
+  font-size: 1rem;
+  padding-right: 1rem;
+  margin: 5px 10px 30px 5px;
+  /*border-right: 2px solid black;*/
+  display: flex;
+  color: black;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .headerInfo{
+  margin: 10px 2rem 10px 10rem;
+}
+.contentCatalog{
   display: flex;
-  align-items: center;
-  margin:3% 15%;
-  justify-content:space-around;
-  font-size: large;
+  margin: 10px 4rem 10px 50px;
+  flex-wrap: wrap;
 }
